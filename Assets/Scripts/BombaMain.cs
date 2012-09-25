@@ -205,7 +205,7 @@ public class BombaMain : MonoBehaviour, FSingleTouchableInterface
 	{
 		rejector++;
 		
-		if(rejector > 0)
+		if(rejector > 0) // Nevermind this. I'm trying to figure out why touches cause lag on android
 		{
 			float xPos = mBombaNode.GlobalToLocal(touch.position).x;
 		
